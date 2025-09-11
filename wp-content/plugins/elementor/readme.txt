@@ -4,8 +4,8 @@ Tags: page builder, editor, landing page, drag-and-drop, elementor,
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 3.31.1
-Beta tag: 3.31.0-beta2
+Stable tag: 3.31.5
+Beta tag: 3.32.0-beta3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -348,6 +348,29 @@ You can also add a new language via [translate.wordpress.org](https://go.element
 6. **Motion Effects** - Add entrance animations and transitions to any element in your website to captivate visitors.
 
 == Changelog ==
+
+= 3.31.5 - 2025-09-09 =
+
+* Fix: Fatal error occurs for non-admin users when editing a page
+
+= 3.31.4 - 2025-09-08 =
+
+* Tweak: Enabled external applications to open AI modals via API
+
+= 3.31.3 - 2025-08-27 =
+
+* Tweak: Disabled indication popover on repeater items – Editor V4
+* Tweak: Enforced numeric keys in `promotionWidgets` and ensured consistent Pro widget injection
+* Fix: Floating Bar disappears from the frontend after activating Elementor Pro
+
+= 3.31.2 - 2025-08-11 =
+
+* Tweak: Improved permissions functionality in Class Management - Editor V4
+* Fix: Page failed to save on certain hosting providers due to blocked requests – Editor V4 ([#31992](https://github.com/elementor/elementor/issues/31992))
+* Fix: Renaming a class causes it to lose applied styles – Editor V4
+* Fix: Inherited values not working as expected with custom units in responsive modes – Editor V4
+* Fix: Visual Choose control not displaying properly in Firefox for Shape Divider
+* Fix: Icon alignment not working in Icon Box widget
 
 = 3.31.1 - 2025-08-06 =
 
