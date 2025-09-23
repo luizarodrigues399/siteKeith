@@ -222,6 +222,20 @@ class WPR_Templates_Data {
 					'priority' => 20,
 				],
 			],
+			'healthy-coaching' => [
+				'v1' => [
+					'name' => 'Healthy Coaching V1',
+					'pages' => 'home,about,courses,course-details,cart,podcast,podcast-details,events,event-details,blog,single-blog,contact,',
+					'plugins' => '{"woocommerce":'. $is_woo_active .'}',
+					'tags' => 'pro healthy coaching coach courses online course podcast students student lecturer teacher trainer training mind body diet wellness nutrition fitness sustainable tutorials tutor diet life health coach',
+					'theme-builder' => true,
+					'woo-builder' => true,
+					'off-canvas' => true,
+					'price' => $is_pro_active ? 'free' : 'pro',
+					'label' => 'new',
+					'priority' => 20,
+				],
+			],
 			'business-coaching' => [
 				'v1' => [
 					'name' => 'Business Coaching V1',
@@ -234,6 +248,18 @@ class WPR_Templates_Data {
 					'price' => $is_pro_active ? 'free' : 'pro',
 					'label' => 'new',
 					'priority' => 20,
+				],
+				'v2' => [
+					'name' => 'Business Coaching V2',
+					'pages' => 'home,courses,course-details,cart,checkout,services,service-details,events,blog,single-blog,contact,',
+					'plugins' => '{"woocommerce":'. $is_woo_active .'}',
+					'tags' => 'pro business coaching coach assistent industry sucess strategy leadership skills training planning partner expert mastery coaching business training mentor consultation industry learning professional growth leadership skills productivity career strategy online courses lessons school study  tutor consultant life coach lifecoach',
+					'theme-builder' => true,
+					'woo-builder' => true,
+					'off-canvas' => true,
+					'price' => $is_pro_active ? 'free' : 'pro',
+					'label' => 'new',
+					'priority' => 22,
 				],
 			],
 			'amazon-landing-page' => [
@@ -2541,10 +2567,22 @@ class WPR_Templates_Data {
 				'preview' => ['home','coaching','details','services','blog','contact'],
 				'price' => $is_pro_active ? 'free' : 'pro',
 			],
+			'healthy-coaching-v1' => [
+				'name' => 'Healthy Coaching V1',
+				'pages' => ['home','about','courses','podcast','podcast-details','events','event-details','blog','contact'],
+				'preview' => ['home','about','courses','podcast','podcast-details','events','event-details','blog','contact'],
+				'price' => $is_pro_active ? 'free' : 'pro',
+			],
 			'business-coaching-v1' => [
 				'name' => 'Business Coaching V1',
 				'pages' => ['home','about','courses','cart','services','service-details','blog','contact'],
 				'preview' => ['home','about','courses','cart','services','service-details','blog','contact'],
+				'price' => $is_pro_active ? 'free' : 'pro',
+			],
+			'business-coaching-v2' => [
+				'name' => 'Business Coaching V2',
+				'pages' => ['home','courses','course-details','cart','services','service-details','events','blog','contact'],
+				'preview' => ['home','courses','course-details','cart','services','service-details','events','blog','contact'],
 				'price' => $is_pro_active ? 'free' : 'pro',
 			],
 			'wedding-v1' => [
