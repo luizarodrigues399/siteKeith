@@ -388,21 +388,43 @@ class Utils {
 		return 'ekit-main-swiper swiper';
 	}
 
-	public static function get_page_by_title( $page_title, $post_type = 'page' ) {
-		$query = new \WP_Query(
-			array(
+
+	/**
+	* Get a page/post by slug (new method).
+	*
+	* 🚀 New Code (preferred):
+	* - Uses post slug instead of post title.
+	* - More reliable because titles can change or contain duplicates, while slugs are unique per post type.
+	*
+	* 🕑 Migration Plan:
+	* - Keep the old `get_page_by_title()` method for the next 5–10 releases as a fallback.
+	* - If this slug-based approach proves stable, we will fully remove the title-based method afterwards.
+	* - If slug lookups fail in some use cases, we will continue to keep the title-based code.
+	*
+	* @introduced: 2025-09-01
+	* @issue: https://tree.taiga.io/project/wpmet-elementskit/issue/219
+	* @since 3.6.1
+	* @param string $slug      Post slug.
+	* @param string $post_type Post type. Default 'page'.
+	* @return WP_Post|null     WP_Post object if found, null otherwise.
+	*/
+	public static function get_page_by_title( $slug, $post_type = 'page' ) {
+		$posts = get_posts(
+			[
+				'name' => $slug,
 				'post_type' => $post_type,
-				'title' => $page_title,
-			)
+				'post_status' => 'publish',
+				'numberposts' => 1,
+				'no_found_rows' => true,
+				'ignore_sticky_posts' => true,
+			]
 		);
 
-		if (!empty($query->post)) {
-			$page_got_by_title = $query->post;
-		} else {
-			$page_got_by_title = null;
+		if ( ! empty( $posts ) ) {
+			return $posts[0];
 		}
 
-		return $page_got_by_title;
+		return null;
 	}
 
 	public static function remove_special_chars($string) {

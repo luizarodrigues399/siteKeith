@@ -1,0 +1,103 @@
+[29-Sep-2025 22:41:36 UTC] PHP Warning:  require_once(/opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/includes/header-notification.php): Failed to open stream: No such file or directory in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[29-Sep-2025 22:41:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/includes/header-notification.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:9
+Stack trace:
+#0 /opt/lampp/htdocs/keith/wp-admin/includes/plugin.php(2387): include_once()
+#1 /opt/lampp/htdocs/keith/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('keith-plugin/ke...')
+#2 /opt/lampp/htdocs/keith/wp-admin/plugins.php(60): activate_plugin('keith-plugin/ke...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[29-Sep-2025 22:49:01 UTC] PHP Warning:  require_once(/opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/includes/header-notification.php): Failed to open stream: No such file or directory in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[29-Sep-2025 22:49:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/includes/header-notification.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:9
+Stack trace:
+#0 /opt/lampp/htdocs/keith/wp-admin/includes/plugin.php(2387): include_once()
+#1 /opt/lampp/htdocs/keith/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape('keith-plugin/ke...')
+#2 /opt/lampp/htdocs/keith/wp-admin/plugins.php(60): activate_plugin('keith-plugin/ke...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[30-Sep-2025 00:08:49 UTC] PHP Warning:  include_once(/opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/../FW/importConstantes.php): Failed to open stream: No such file or directory in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[30-Sep-2025 00:08:49 UTC] PHP Warning:  include_once(): Failed opening '/opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/../FW/importConstantes.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[30-Sep-2025 00:08:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SERVICOS" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/keith/wp-settings.php(545): include_once()
+#1 /opt/lampp/htdocs/keith/wp-config.php(112): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/keith/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/keith/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 11
+[30-Sep-2025 01:09:07 UTC] PHP Warning:  include_once(/opt/lampp/htdocsFW/importConstantes.php): Failed to open stream: No such file or directory in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[30-Sep-2025 01:09:07 UTC] PHP Warning:  include_once(): Failed opening '/opt/lampp/htdocsFW/importConstantes.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 9
+[30-Sep-2025 01:09:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SERVICOS" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:13
+Stack trace:
+#0 /opt/lampp/htdocs/keith/wp-settings.php(545): include_once()
+#1 /opt/lampp/htdocs/keith/wp-config.php(112): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/keith/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/keith/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/keith/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 13
+[30-Sep-2025 18:56:38 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:56:39 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:57:12 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:07 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:07 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:08 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:08 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:09 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:11 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:13 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:13 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 18:58:14 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 18
+[30-Sep-2025 19:29:19 UTC] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 36
+[30-Sep-2025 19:15:44 America/Sao_Paulo] WordPress database error Table 'keith_wordpress.wp_xyz_ips_short_code' doesn't exist for query SELECT * FROM wp_xyz_ips_short_code WHERE insertionMethod = 1 AND status = 1 made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/insert-php-code-snippet/insert-php-code-snippet.php'), require('/plugins/insert-php-code-snippet/shortcode-handler.php')
+[29-Oct-2025 21:21:11 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:12 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:12 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:12 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:25 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:25 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:27 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:28 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[29-Oct-2025 21:21:30 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 15
+[30-Oct-2025 22:29:26 UTC] Estamos na página de contato!
+[30-Oct-2025 22:31:13 UTC] Estamos na página de contato!
+[30-Oct-2025 22:36:03 UTC] Estamos na página de contato!
+[30-Oct-2025 22:37:34 UTC] Estamos na página de contato!
+[30-Oct-2025 22:44:50 UTC] Estamos na página de contato!
+[31-Oct-2025 00:07:04 UTC] Estamos na página de contato!
+[31-Oct-2025 00:09:18 UTC] Estamos na página de contato!
+[31-Oct-2025 00:10:14 UTC] Estamos na página de contato!
+[31-Oct-2025 00:10:14 UTC] Estamos na página de contato!
+[31-Oct-2025 00:10:59 UTC] Estamos na página de contato!
+[31-Oct-2025 00:13:26 UTC] Estamos na página de contato!
+[31-Oct-2025 00:13:54 UTC] Estamos na página de contato!
+[31-Oct-2025 00:15:47 UTC] Estamos na página de contato!
+[31-Oct-2025 00:24:24 UTC] Estamos na página de contato!
+[31-Oct-2025 00:25:46 UTC] Estamos na página de contato!
+[31-Oct-2025 00:26:38 UTC] Estamos na página de contato!
+[31-Oct-2025 00:27:27 UTC] Estamos na página de contato!
+[31-Oct-2025 00:28:41 UTC] Estamos na página de contato!
+[31-Oct-2025 00:34:13 UTC] Estamos na página de contato!
+[31-Oct-2025 00:34:56 UTC] Estamos na página de contato!
+[31-Oct-2025 22:13:56 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:15:16 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:15:16 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:15:16 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:15:19 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:16:01 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:16:01 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[31-Oct-2025 22:16:01 UTC] PHP Parse error:  syntax error, unexpected token "." in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[01-Nov-2025 00:14:07 UTC] PHP Parse error:  syntax error, unexpected token "array", expecting ")" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 26
+[01-Nov-2025 00:14:10 UTC] PHP Parse error:  syntax error, unexpected token "array", expecting ")" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 26
+[04-Nov-2025 00:17:28 UTC] PHP Fatal error:  Cannot redeclare importarGlobalJS() (previously declared in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:31) in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 40
+[04-Nov-2025 00:17:47 UTC] PHP Parse error:  syntax error, unexpected token "function" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 17
+[04-Nov-2025 00:17:48 UTC] PHP Parse error:  syntax error, unexpected token "function" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 17
+[04-Nov-2025 00:17:49 UTC] PHP Parse error:  syntax error, unexpected token "function" in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 17
+[05-Nov-2025 00:42:41 UTC] [ERROR] : WP_CACHE constant is not present in wp-config.php
+[05-Nov-2025 00:43:08 UTC] [ERROR] : WP_CACHE constant is not present in wp-config.php
+[05-Nov-2025 00:43:24 UTC] [ERROR] : WP_CACHE constant is not present in wp-config.php
+[05-Nov-2025 00:43:25 UTC] [ERROR] : WP_CACHE constant is not present in wp-config.php
+[05-Nov-2025 16:15:26 UTC] PHP Fatal error:  Cannot redeclare wordpressGlobalJS() (previously declared in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:20) in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[05-Nov-2025 16:17:29 UTC] PHP Fatal error:  Cannot redeclare wordpressGlobalJS() (previously declared in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:20) in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[05-Nov-2025 16:19:29 UTC] PHP Fatal error:  Cannot redeclare wordpressGlobalJS() (previously declared in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:20) in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[05-Nov-2025 16:21:31 UTC] PHP Fatal error:  Cannot redeclare wordpressGlobalJS() (previously declared in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:20) in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29
+[05-Nov-2025 16:32:50 UTC] PHP Fatal error:  Cannot redeclare wordpressGlobalJS() (previously declared in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php:20) in /opt/lampp/htdocs/keith/wp-content/plugins/keith-plugin/keith-plugin.php on line 29

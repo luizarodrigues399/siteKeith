@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'HELLO_ELEMENTOR_VERSION', '3.4.4' );
+define( 'HELLO_ELEMENTOR_VERSION', '3.4.5' );
 define( 'EHP_THEME_SLUG', 'hello-elementor' );
 
 define( 'HELLO_THEME_PATH', get_template_directory() );
@@ -80,7 +80,7 @@ if ( ! function_exists( 'hello_elementor_setup' ) ) {
 			 * Editor Styles
 			 */
 			add_theme_support( 'editor-styles' );
-			add_editor_style( 'editor-styles.css' );
+			add_editor_style( 'assets/css/editor-styles.css' );
 
 			/*
 			 * WooCommerce.
@@ -267,19 +267,6 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		wp_body_open();
 	}
 }
-
-function mytheme_enqueue_scripts() {
-    // Bootstrap CSS
-    wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
-
-    // Your Theme's CSS
-    wp_enqueue_style('mytheme-style', get_stylesheet_uri());
-
-    // Bootstrap JS (with Popper.js if needed)
-    wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array('jquery'), null, true);
-}
-
-add_action('wp_enqueue_scripts', 'mytheme_enqueue_scripts');
 
 require HELLO_THEME_PATH . '/theme.php';
 

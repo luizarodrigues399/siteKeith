@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Hello Elementor package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-09 00:50:44+0000\n"
+"PO-Revision-Date: 2025-10-28 01:47:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Themes - Hello Elementor\n"
 
@@ -23,7 +23,11 @@ msgstr "O Hello Elementor é um tema WordPress leve e minimalista que foi constr
 msgid "Hello Elementor"
 msgstr "Hello Elementor"
 
-#: modules/admin-home/rest/promotions.php:75
+#: modules/admin-home/components/finder.php:14
+msgid "Hello Theme Home"
+msgstr "Página inicial do tema Hello"
+
+#: modules/admin-home/rest/promotions.php:76
 msgid "Connect any website to automated Email & SMS workflows in a click with Send."
 msgstr "Conecte qualquer site a fluxos de trabalho automatizados de e-mail e SMS em um clique com o Send."
 
@@ -31,11 +35,11 @@ msgstr "Conecte qualquer site a fluxos de trabalho automatizados de e-mail e SMS
 msgid "Send"
 msgstr "Enviar"
 
-#: modules/admin-home/rest/admin-config.php:208
+#: modules/admin-home/rest/admin-config.php:261
 msgid "Add New"
 msgstr "Adicionar nova"
 
-#: modules/admin-home/rest/admin-config.php:204
+#: modules/admin-home/rest/admin-config.php:257
 msgid "Edit"
 msgstr "Editar"
 
@@ -99,21 +103,21 @@ msgstr "Tenha total flexibilidade de design para seu site, com as ferramentas av
 msgid "Bring your vision to life"
 msgstr "Dê vida à sua ideia"
 
-#: modules/admin-home/rest/promotions.php:95
+#: modules/admin-home/rest/promotions.php:96
 msgid "Let's Go"
 msgstr "Vamos lá"
 
-#: modules/admin-home/rest/promotions.php:93
+#: modules/admin-home/rest/promotions.php:94
 msgid "Boost creativity with Elementor AI. Craft & enhance copy, create custom CSS & Code, and generate images to elevate your website."
 msgstr "Estimule a criatividade com a IA do Elementor. Crie e melhore o texto, crie CSS e códigos personalizados e gere imagens para incrementar seu site."
 
-#: modules/admin-home/rest/promotions.php:90
 #: modules/admin-home/rest/promotions.php:91
+#: modules/admin-home/rest/promotions.php:92
 msgid "Elementor AI"
 msgstr "IA do Elementor"
 
 #: modules/admin-home/rest/promotions.php:58
-#: modules/admin-home/rest/promotions.php:77
+#: modules/admin-home/rest/promotions.php:78
 msgid "Install"
 msgstr "Instalar"
 
@@ -137,77 +141,77 @@ msgstr "Otimize as imagens."
 msgid "Elementor Image Optimizer"
 msgstr "Image Optimizer do Elementor"
 
-#: modules/admin-home/rest/admin-config.php:303
+#: modules/admin-home/rest/admin-config.php:362
 msgid "Upgrade now"
 msgstr "Atualizar agora"
 
-#: modules/admin-home/rest/admin-config.php:300
+#: modules/admin-home/rest/admin-config.php:359
 msgid "Unlock the theme builder, popup builder, 100+ widgets and more advanced tools to take your website to the next level."
 msgstr "Desbloqueie o construtor de temas, o construtor de pop-ups, mais de 100 widgets e outras ferramentas avançadas para levar seu site ao próximo nível."
 
-#: modules/admin-home/rest/admin-config.php:299
+#: modules/admin-home/rest/admin-config.php:358
 msgid "Go Pro, Go Limitless"
 msgstr "Acesse o Pro e vá além dos limites"
 
-#: modules/admin-home/rest/admin-config.php:279
+#: modules/admin-home/rest/admin-config.php:338
 msgid "Welcome to Hello Theme—a lightweight, blank canvas designed to integrate seamlessly with Elementor, the most popular, no-code visual website builder. By installing and activating Elementor, you'll unlock the power to craft a professional website with advanced features and functionalities."
 msgstr "Boas-vindas ao Hello Theme - uma tela em branco leve, desenvolvida para se integrar perfeitamente ao Elementor, o mais popular construtor visual de sites sem código. Ao instalar e ativar o Elementor, você terá acesso ao poder de criar um site profissional com recursos e funcionalidades avançados."
 
-#: modules/admin-home/rest/admin-config.php:252
+#: modules/admin-home/rest/admin-config.php:311
 msgid "Site Fonts"
 msgstr "Fontes do site"
 
-#: modules/admin-home/rest/admin-config.php:246
+#: modules/admin-home/rest/admin-config.php:305
 msgid "Site Colors"
 msgstr "Cores do site"
 
-#: modules/admin-home/rest/admin-config.php:238
+#: modules/admin-home/rest/admin-config.php:297
 msgid "Site Favicon"
 msgstr "Favicon do site"
 
-#: modules/admin-home/rest/admin-config.php:227
+#: modules/admin-home/rest/admin-config.php:286
 msgid "Site Name"
 msgstr "Nome do site"
 
-#: modules/admin-home/rest/admin-config.php:127
+#: modules/admin-home/rest/admin-config.php:180
 msgid "Add New Page"
 msgstr "Adicionar nova página"
 
-#: modules/admin-home/rest/admin-config.php:84
+#: modules/admin-home/rest/admin-config.php:137
 msgid "Platinum Support"
 msgstr "Suporte Platinum"
 
-#: modules/admin-home/rest/admin-config.php:78
+#: modules/admin-home/rest/admin-config.php:131
 msgid "Blog"
 msgstr "Blog"
 
-#: modules/admin-home/rest/admin-config.php:72
+#: modules/admin-home/rest/admin-config.php:125
 msgid "Help Center"
 msgstr "Central de ajuda"
 
-#: modules/admin-home/rest/admin-config.php:64
+#: modules/admin-home/rest/admin-config.php:117
 msgid "Rate Us"
 msgstr "Nos classifique"
 
-#: modules/admin-home/rest/admin-config.php:59
+#: modules/admin-home/rest/admin-config.php:112
 msgid "Discord"
 msgstr "Discord"
 
-#: modules/admin-home/rest/admin-config.php:53
+#: modules/admin-home/rest/admin-config.php:106
 msgid "YouTube"
 msgstr "YouTube"
 
-#: modules/admin-home/rest/admin-config.php:47
+#: modules/admin-home/rest/admin-config.php:100
 msgid "Facebook"
 msgstr "Facebook"
 
 #: modules/admin-home/components/settings-controller.php:140
 #: modules/admin-home/components/settings-controller.php:141
-#: modules/admin-home/rest/admin-config.php:132
+#: modules/admin-home/rest/admin-config.php:185
 msgid "Settings"
 msgstr "Configurações"
 
-#: modules/admin-home/components/conversion-banner.php:60
+#: modules/admin-home/components/conversion-banner.php:189
 msgid "Notice dismissed."
 msgstr "Notificação dispensada."
 
@@ -218,7 +222,7 @@ msgstr "Planejador de sites com IA"
 
 #: modules/admin-home/components/admin-menu-controller.php:44
 #: modules/admin-home/components/admin-menu-controller.php:45
-#: modules/admin-home/rest/admin-config.php:159
+#: modules/admin-home/rest/admin-config.php:212
 msgid "Theme Builder"
 msgstr "Construtor de temas"
 
@@ -645,33 +649,33 @@ msgstr "Mostrar"
 #: includes/settings/settings-footer.php:291
 #: includes/settings/settings-header.php:55
 #: includes/settings/settings-header.php:286
-#: modules/admin-home/rest/admin-config.php:233
+#: modules/admin-home/rest/admin-config.php:292
 msgid "Site Logo"
 msgstr "Logo do site"
 
 #: functions.php:43 includes/settings/settings-footer.php:46
-#: modules/admin-home/rest/admin-config.php:150
+#: modules/admin-home/rest/admin-config.php:203
 msgid "Footer"
 msgstr "Rodapé"
 
 #: functions.php:42 includes/settings/settings-header.php:47
-#: modules/admin-home/rest/admin-config.php:143
+#: modules/admin-home/rest/admin-config.php:196
 msgid "Header"
 msgstr "Cabeçalho"
 
-#: modules/admin-home/rest/admin-config.php:278
+#: modules/admin-home/rest/admin-config.php:337
 msgid "Thanks for installing the Hello Theme!"
 msgstr "Agradecemos por instalar o tema Hello!"
 
 #: includes/customizer/customizer-action-links.php:48
 #: includes/customizer/customizer-action-links.php:50
-#: modules/admin-home/rest/admin-config.php:274
+#: modules/admin-home/rest/admin-config.php:333
 msgid "Install Elementor"
 msgstr "Instalar o Elementor"
 
 #: includes/customizer/customizer-action-links.php:67
 #: includes/customizer/customizer-action-links.php:69
-#: modules/admin-home/rest/admin-config.php:272
+#: modules/admin-home/rest/admin-config.php:331
 msgid "Activate Elementor"
 msgstr "Ativar o Elementor"
 

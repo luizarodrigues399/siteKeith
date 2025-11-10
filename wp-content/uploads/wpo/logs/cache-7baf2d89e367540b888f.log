@@ -1,0 +1,109 @@
+[2025-11-04 17:32:36 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-11-04 17:33:19 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-11-04 18:24:21 : INFO] - Setting changed, purging cache 
+[2025-11-06 00:29:36 : INFO] - Cache for URL: http://localhost:41062/keith/ has been purged, triggered by action: save_post 
+[2025-11-06 00:29:36 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Home" has been purged, triggered by action: save_post 
+[2025-11-06 00:29:36 : INFO] - Cache for URL: http://localhost:41062/keith/ has been purged, triggered by action: save_post 
+[2025-11-06 00:29:36 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Home" has been purged, triggered by action: save_post 
+[2025-11-06 00:29:53 : INFO] - Cache for URL: http://localhost:41062/keith/ has been purged, triggered by action: save_post 
+[2025-11-06 00:29:53 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Home" has been purged, triggered by action: save_post 
+[2025-11-06 16:10:46 : INFO] - Cache for URL: http://localhost:41062/keith/servico/ has been purged, triggered by action: save_post 
+[2025-11-06 16:10:46 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Serviços" has been purged, triggered by action: save_post 
+[2025-11-06 16:10:46 : INFO] - Cache for URL: http://localhost:41062/keith/servico/ has been purged, triggered by action: save_post 
+[2025-11-06 16:10:46 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Serviços" has been purged, triggered by action: save_post 
+[2025-11-06 16:10:57 : INFO] - Cache for URL: http://localhost:41062/keith/servico/ has been purged, triggered by action: save_post 
+[2025-11-06 16:10:57 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Serviços" has been purged, triggered by action: save_post 
+[2025-11-06 16:31:49 : INFO] - Cache for URL: http://localhost:41062/keith/servico/ has been purged, triggered by action: save_post 
+[2025-11-06 16:31:49 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Serviços" has been purged, triggered by action: save_post 
+[2025-11-06 16:31:50 : INFO] - Cache for URL: http://localhost:41062/keith/servico/ has been purged, triggered by action: save_post 
+[2025-11-06 16:31:50 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Serviços" has been purged, triggered by action: save_post 
+[2025-11-06 16:31:59 : INFO] - Cache for URL: http://localhost:41062/keith/servico/ has been purged, triggered by action: save_post 
+[2025-11-06 16:31:59 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Serviços" has been purged, triggered by action: save_post 
+[2025-11-06 18:07:09 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 18:07:09 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 20:11:12 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 20:11:12 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 20:22:34 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 20:22:34 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 20:26:02 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 20:26:02 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 20:29:44 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 20:29:44 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 20:41:39 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 20:41:39 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 20:41:39 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 20:41:39 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 20:41:56 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 20:41:56 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 21:00:07 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 21:00:07 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 21:33:20 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 21:33:20 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 21:43:34 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 21:43:34 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 21:45:06 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 21:45:06 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 21:45:07 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 21:45:07 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 21:45:15 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 21:45:15 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 21:47:20 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 21:47:20 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 21:51:22 : INFO] - Cache for URL: http://localhost:41062/keith/?post_type=popup&p=2565 has been purged, triggered by action: save_post 
+[2025-11-06 21:51:22 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: popup and Title: "POP-UP agendamento vazio" has been purged, triggered by action: save_post 
+[2025-11-06 23:29:08 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 23:29:08 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 23:29:09 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 23:29:09 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-06 23:29:20 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-06 23:29:20 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:00:34 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:00:34 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:00:35 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:00:35 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:00:44 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:00:44 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:06:27 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:06:27 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:06:28 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:06:28 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:06:36 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:06:36 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:07:46 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:07:46 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:07:48 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:07:48 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 00:08:00 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 00:08:00 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 01:20:07 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 01:20:07 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 01:20:09 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 01:20:09 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 01:20:26 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 01:20:26 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 01:30:39 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 01:30:39 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 01:30:40 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 01:30:40 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 01:30:49 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 01:30:49 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:00:06 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:00:06 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:00:10 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:00:10 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:00:26 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:00:26 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:10:25 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:10:25 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:10:27 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:10:27 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:10:36 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:10:36 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:29:26 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:29:26 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:29:28 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:29:28 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-07 17:29:41 : INFO] - Cache for URL: http://localhost:41062/keith/blog/ has been purged, triggered by action: save_post 
+[2025-11-07 17:29:41 : INFO] - Cache for author page URL: http://localhost:41062/keith/author/luiza/ associated with post_type: page and Title: "Blog" has been purged, triggered by action: save_post 
+[2025-11-10 15:11:38 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
+[2025-11-10 18:43:28 : INFO] - Full Cache Purge triggered by action: wpo_active_plugin_or_theme_updated 
