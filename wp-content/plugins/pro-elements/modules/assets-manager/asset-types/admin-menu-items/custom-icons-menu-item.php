@@ -30,3 +30,4 @@ class Custom_Icons_Menu_Item implements Admin_Menu_Item {
 		return true;
 	}
 }
+

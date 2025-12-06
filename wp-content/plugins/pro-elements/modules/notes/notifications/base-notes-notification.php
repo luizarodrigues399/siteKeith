@@ -79,7 +79,7 @@ abstract class Base_Notes_Notification extends Notification {
 	protected function get_sender() {
 		return [
 			get_bloginfo( 'admin_email' ),
-			$this->actor->display_name . ' (' . esc_html__( 'via Elementor', 'elementor-pro' ) . ')',
+			$this->actor->display_name . ' (' . esc_html__( 'via PRO Elements', 'elementor-pro' ) . ')',
 		];
 	}
 

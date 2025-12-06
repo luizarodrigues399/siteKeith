@@ -2,9 +2,9 @@
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: ElementsKit Lite 3.7.5\n"
+"Project-Id-Version: ElementsKit Lite 3.7.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elementskit-lite\n"
-"POT-Creation-Date: 2025-10-28 15:53:22+00:00\n"
+"POT-Creation-Date: 2025-12-04 14:35:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "which is currently NOT RUNNING on this server."
 msgstr ""
 
-#: elementskit-lite.php:421 libs/forms/pages/template.php:396
+#: elementskit-lite.php:421 libs/forms/pages/template.php:398
 #: libs/framework/views/onboard-steps/step-05.php:25
 msgid "ElementsKit"
 msgstr ""
@@ -121,15 +121,15 @@ msgid ""
 "the advanced features and highest flexibility."
 msgstr ""
 
-#: libs/forms/pages/template.php:23 libs/forms/pages/template.php:65
+#: libs/forms/pages/template.php:23 libs/forms/pages/template.php:67
 msgid "Installing..."
 msgstr ""
 
-#: libs/forms/pages/template.php:24 libs/forms/pages/template.php:70
+#: libs/forms/pages/template.php:24 libs/forms/pages/template.php:72
 msgid "Activating..."
 msgstr ""
 
-#: libs/forms/pages/template.php:25 libs/forms/pages/template.php:76
+#: libs/forms/pages/template.php:25 libs/forms/pages/template.php:78
 #: libs/framework/classes/plugin-status.php:56
 #: libs/our-plugins/our-plugins.php:370
 msgid "Activated"
@@ -139,167 +139,167 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: libs/forms/pages/template.php:103
+#: libs/forms/pages/template.php:105
 msgid "Contact Form Builder"
 msgstr ""
 
-#: libs/forms/pages/template.php:111
+#: libs/forms/pages/template.php:113
 msgid "40+ input styles for WordPress forms."
 msgstr ""
 
-#: libs/forms/pages/template.php:119
+#: libs/forms/pages/template.php:121
 msgid "GDPR compliant form-building."
 msgstr ""
 
-#: libs/forms/pages/template.php:127
+#: libs/forms/pages/template.php:129
 msgid "Confirmation email on form submission"
 msgstr ""
 
-#: libs/forms/pages/template.php:133
+#: libs/forms/pages/template.php:135
 msgid "Contact Form"
 msgstr ""
 
-#: libs/forms/pages/template.php:142
+#: libs/forms/pages/template.php:144
 msgid "Conditional Logic Form"
 msgstr ""
 
-#: libs/forms/pages/template.php:150
+#: libs/forms/pages/template.php:152
 msgid "Build smart forms with conditional logic"
 msgstr ""
 
-#: libs/forms/pages/template.php:158
+#: libs/forms/pages/template.php:160
 msgid "Form fields appear dynamically for users."
 msgstr ""
 
-#: libs/forms/pages/template.php:166
+#: libs/forms/pages/template.php:168
 msgid "Conditional fields based on the user input."
 msgstr ""
 
-#: libs/forms/pages/template.php:172
+#: libs/forms/pages/template.php:174
 msgid "Conditional Logic"
 msgstr ""
 
-#: libs/forms/pages/template.php:182
+#: libs/forms/pages/template.php:184
 msgid "Multi-step"
 msgstr ""
 
-#: libs/forms/pages/template.php:184
+#: libs/forms/pages/template.php:186
 msgid "WordPress form"
 msgstr ""
 
-#: libs/forms/pages/template.php:193
+#: libs/forms/pages/template.php:195
 msgid "Convert long forms into multiple steps."
 msgstr ""
 
-#: libs/forms/pages/template.php:201
+#: libs/forms/pages/template.php:203
 msgid "More user-friendly and engaging forms."
 msgstr ""
 
-#: libs/forms/pages/template.php:209
+#: libs/forms/pages/template.php:211
 msgid "Nav bar/ progress bar for better attention."
 msgstr ""
 
-#: libs/forms/pages/template.php:215
+#: libs/forms/pages/template.php:217
 msgid "Multi-Step Forms"
 msgstr ""
 
-#: libs/forms/pages/template.php:225
+#: libs/forms/pages/template.php:227
 msgid "18+ Advanced"
 msgstr ""
 
-#: libs/forms/pages/template.php:227 libs/forms/pages/template.php:270
+#: libs/forms/pages/template.php:229 libs/forms/pages/template.php:272
 msgid "Integrations"
 msgstr ""
 
-#: libs/forms/pages/template.php:236
+#: libs/forms/pages/template.php:238
 msgid "reCAPTCHA spam protection for forms."
 msgstr ""
 
-#: libs/forms/pages/template.php:244
+#: libs/forms/pages/template.php:246
 msgid "Google Maps and Sheets integration."
 msgstr ""
 
-#: libs/forms/pages/template.php:252
+#: libs/forms/pages/template.php:254
 msgid "Support PayPal and Stripe payments."
 msgstr ""
 
-#: libs/forms/pages/template.php:258
+#: libs/forms/pages/template.php:260
 msgid "Advanced Integrations"
 msgstr ""
 
-#: libs/forms/pages/template.php:268
+#: libs/forms/pages/template.php:270
 msgid "CRM and Newsletter"
 msgstr ""
 
-#: libs/forms/pages/template.php:279
+#: libs/forms/pages/template.php:281
 msgid "Integrates with 7+ CRMs and Newsletters."
 msgstr ""
 
-#: libs/forms/pages/template.php:287
+#: libs/forms/pages/template.php:289
 msgid "HubSpot, Zoho, MailChimp,  integration"
 msgstr ""
 
-#: libs/forms/pages/template.php:295
+#: libs/forms/pages/template.php:297
 msgid "MailChimp, AWeber, ConvertKit, and more."
 msgstr ""
 
-#: libs/forms/pages/template.php:301
+#: libs/forms/pages/template.php:303
 msgid "CRM Integrations"
 msgstr ""
 
-#: libs/forms/pages/template.php:311
+#: libs/forms/pages/template.php:313
 msgid "MetForm Free vs Pro"
 msgstr ""
 
-#: libs/forms/pages/template.php:312
+#: libs/forms/pages/template.php:314
 msgid ""
 "Want full freedom while designing WordPress forms? Switch to PRO! Here is "
 "what you will be getting with MetForm Pro."
 msgstr ""
 
-#: libs/forms/pages/template.php:319 widgets/pricing/pricing.php:220
+#: libs/forms/pages/template.php:321 widgets/pricing/pricing.php:220
 #: widgets/pricing/pricing.php:1780 widgets/pricing/pricing.php:2461
 msgid "Features"
 msgstr ""
 
-#: libs/forms/pages/template.php:320
+#: libs/forms/pages/template.php:322
 msgid "Free"
 msgstr ""
 
-#: libs/forms/pages/template.php:321
+#: libs/forms/pages/template.php:323
 msgid "Pro"
 msgstr ""
 
-#: libs/forms/pages/template.php:330
+#: libs/forms/pages/template.php:332
 msgid "Available"
 msgstr ""
 
-#: libs/forms/pages/template.php:331
+#: libs/forms/pages/template.php:333
 msgid "Not Available"
 msgstr ""
 
-#: libs/forms/pages/template.php:375
+#: libs/forms/pages/template.php:377
 msgid "Switch to MetForm Pro and start creating"
 msgstr ""
 
-#: libs/forms/pages/template.php:377
+#: libs/forms/pages/template.php:379
 msgid "your WordPress forms with"
 msgstr ""
 
-#: libs/forms/pages/template.php:378
+#: libs/forms/pages/template.php:380
 msgid "Limitless Options"
 msgstr ""
 
-#: libs/forms/pages/template.php:387
+#: libs/forms/pages/template.php:389
 #: libs/framework/views/layout-settings.php:39
 msgid "Go Premium"
 msgstr ""
 
-#: libs/forms/pages/template.php:396
+#: libs/forms/pages/template.php:398
 msgid "Thank you for creating with %s"
 msgstr ""
 
-#: libs/forms/pages/template.php:399
+#: libs/forms/pages/template.php:401
 msgid "Version 6.8.2"
 msgstr ""
 
@@ -307,55 +307,55 @@ msgstr ""
 msgid "ElementsKit Settings"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:121
+#: libs/framework/classes/ajax.php:127
 msgid "Setup Configurations"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:122
+#: libs/framework/classes/ajax.php:128
 msgid "Page Builder Elements Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:123
+#: libs/framework/classes/ajax.php:129
 msgid "AI Content & SEO Tool Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:124
+#: libs/framework/classes/ajax.php:130
 msgid "WooCommerce Builder Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:125
+#: libs/framework/classes/ajax.php:131
 msgid "Form Builder Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:126
+#: libs/framework/classes/ajax.php:132
 msgid "Email Customizer Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:127
+#: libs/framework/classes/ajax.php:133
 msgid "Social Integration Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:128
+#: libs/framework/classes/ajax.php:134
 msgid "Review Management Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:129
+#: libs/framework/classes/ajax.php:135
 msgid "Fundraising & Donations"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:130
+#: libs/framework/classes/ajax.php:136
 msgid "Page Builder Blocks Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:131
+#: libs/framework/classes/ajax.php:137
 msgid "Popup Builder Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:132
+#: libs/framework/classes/ajax.php:138
 msgid "Table Builder Activated"
 msgstr ""
 
-#: libs/framework/classes/ajax.php:138
+#: libs/framework/classes/ajax.php:144
 msgid "Plugin Activated"
 msgstr ""
 
@@ -1205,12 +1205,12 @@ msgstr ""
 msgid "Loading"
 msgstr ""
 
-#: modules/controls/widget-area-utils.php:32
-#: modules/controls/widget-area-utils.php:106
+#: modules/controls/widget-area-utils.php:31
+#: modules/controls/widget-area-utils.php:104
 msgid "Click on the Edit Content button to edit/add the content."
 msgstr ""
 
-#: modules/controls/widget-area-utils.php:63
+#: modules/controls/widget-area-utils.php:62
 msgid "Edit Content"
 msgstr ""
 
@@ -1811,7 +1811,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: modules/megamenu/walker-nav-menu.php:320
+#: modules/megamenu/walker-nav-menu.php:319
 msgid "No content found"
 msgstr ""
 
@@ -7713,7 +7713,7 @@ msgstr ""
 msgid "Please Select A Table From Setting!"
 msgstr ""
 
-#: widgets/tablepress/tablepress.php:729
+#: widgets/tablepress/tablepress.php:733
 msgid "Please install and activate TablePress plugin to work this widget."
 msgstr ""
 

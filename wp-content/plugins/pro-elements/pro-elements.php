@@ -1,17 +1,17 @@
 <?php
 /**
  * Plugin Name: PRO Elements
- * Description: This plugin enables GPL features of Elementor Pro: widgets, theme builder, dynamic colors & content, forms & popup builder, and more. Note that PRO Elements is not a substitute for Elementor Pro. If you need all Elementor Pro features, including access to pro templates library and dedicated support, we encourage you to <a href="https://elementor.com/pro/" target="_blank">purchase Elementor Pro</a>.
+ * Description: Adds professional features for sites using the Elementor page builder.
  * Plugin URI: https://proelements.org/
  * Author: PROElements.org
- * Version: 3.32.1
+ * Version: 3.33.1
  * * Elementor tested up to: 3.32.0
  * Author URI: https://proelements.org/
  * Requires PHP: 7.4
  * Requires at least: 6.6
  * Requires Plugins: elementor
- * Elementor tested up to: 3.32.0
- * Text Domain: elementor-pro
+ * Elementor tested up to: 3.33.0
+ * Text Domain: pro-elements
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -29,7 +29,7 @@ function pro_elements_plugin_load_plugin() {
 		return;
 	}
 
-	define( 'ELEMENTOR_PRO_VERSION', '3.32.1' );
+	define( 'ELEMENTOR_PRO_VERSION', '3.33.1' );
 
 /**
  * All versions should be `major.minor`, without patch, in order to compare them properly.
@@ -37,8 +37,8 @@ function pro_elements_plugin_load_plugin() {
  * (e.g. Core 3.14.0-beta1 and Core 3.14.0-cloud2 should be fine when requiring 3.14, while
  * requiring 3.14.2 is not allowed)
  */
-define( 'ELEMENTOR_PRO_REQUIRED_CORE_VERSION', '3.30' );
-define( 'ELEMENTOR_PRO_RECOMMENDED_CORE_VERSION', '3.32' );
+define( 'ELEMENTOR_PRO_REQUIRED_CORE_VERSION', '3.31' );
+define( 'ELEMENTOR_PRO_RECOMMENDED_CORE_VERSION', '3.33' );
 
 define( 'ELEMENTOR_PRO__FILE__', __FILE__ );
 define( 'ELEMENTOR_PRO_PLUGIN_BASE', plugin_basename( ELEMENTOR_PRO__FILE__ ) );
@@ -120,8 +120,8 @@ function pro_elements_plugin_fail_load() {
 
 		$activation_url = wp_nonce_url( 'plugins.php?action=activate&amp;plugin=' . $plugin . '&amp;plugin_status=all&amp;paged=1&amp;s', 'activate-plugin_' . $plugin );
 
-		$message = '<h3>' . esc_html__( 'You\'re not using Elementor Pro yet!', 'elementor-pro' ) . '</h3>';
-		$message .= '<p>' . esc_html__( 'Activate the Elementor plugin to start using all of Elementor Pro plugin’s features.', 'elementor-pro' ) . '</p>';
+		$message = '<h3>' . esc_html__( 'You\'re not using PRO Elements yet!', 'elementor-pro' ) . '</h3>';
+		$message .= '<p>' . esc_html__( 'Activate the Elementor plugin to start using all of PRO Elements plugin’s features.', 'elementor-pro' ) . '</p>';
 		$message .= '<p>' . sprintf( '<a href="%s" class="button-primary">%s</a>', $activation_url, esc_html__( 'Activate Now', 'elementor-pro' ) ) . '</p>';
 	} else {
 		if ( ! current_user_can( 'install_plugins' ) ) {
@@ -130,8 +130,8 @@ function pro_elements_plugin_fail_load() {
 
 		$install_url = wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=elementor' ), 'install-plugin_elementor' );
 
-		$message = '<h3>' . esc_html__( 'Pro Elements plugin requires installing the Elementor plugin', 'elementor-pro' ) . '</h3>';
-		$message .= '<p>' . esc_html__( 'Install and activate the Elementor plugin to access all the features.', 'elementor-pro' ) . '</p>';
+		$message = '<h3>' . esc_html__( 'PRO Elements plugin requires installing the Elementor plugin', 'elementor-pro' ) . '</h3>';
+		$message .= '<p>' . esc_html__( 'Install and activate the Elementor plugin to access all PRO Elements features.', 'elementor-pro' ) . '</p>';
 		$message .= '<p>' . sprintf( '<a href="%s" class="button-primary">%s</a>', $install_url, esc_html__( 'Install Now', 'elementor-pro' ) ) . '</p>';
 	}
 
@@ -148,7 +148,7 @@ function pro_elements_plugin_fail_load_out_of_date() {
 	$upgrade_link = wp_nonce_url( self_admin_url( 'update.php?action=upgrade-plugin&plugin=' ) . $file_path, 'upgrade-plugin_' . $file_path );
 	$message = sprintf(
 	/* translators: 1: Title opening tag, 2: Title closing tag */
-		esc_html__( '%1$sPro Elements  requires newer version of the Elementor plugin%2$s Update the Elementor plugin to reactivate the Pro Elements plugin.', 'elementor-pro' ),
+		esc_html__( '%1$ssPRO Elements  requires newer version of the Elementor plugin%2$s Update the Elementor plugin to reactivate the Pro Elements plugin.', 'elementor-pro' ),
 		'<h3>',
 		'</h3>'
 	);

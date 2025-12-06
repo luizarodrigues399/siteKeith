@@ -59,7 +59,7 @@ class Controller extends Base_Controller {
 			],
 			'element_id' => [
 				'type' => 'string',
-				'description' => 'Each note must be attached to an elementor element.',
+				'description' => 'Each note must be attached to an PRO Elements element.',
 				'required' => true,
 				'sanitize_callback' => function( $value ) {
 					return trim( $value );

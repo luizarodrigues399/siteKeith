@@ -287,6 +287,8 @@ function wpr_addons_settings_page() {
         $modules = Utilities::get_registered_modules();
         $premium_modules = [
 			'Breadcrumbs' => ['breadcrumbs-pro', 'https://royal-elementor-addons.com/?ref=rea-plugin-backend-elements-breadcrumbs-widgets-upgrade-pro#purchasepro', '', 'pro'],
+			'Category Grid' => ['category-grid-pro', 'https://royal-elementor-addons.com/?ref=rea-plugin-backend-elements-catgrid-widgets-upgrade-pro#purchasepro', '', 'expert'],
+			'Advanced Filters' => ['advanced-filters-pro', 'https://royal-elementor-addons.com/?ref=rea-plugin-backend-elements-advancedfilters-widgets-upgrade-pro#purchasepro', '', 'expert'],
         ];
 
         foreach ( array_merge($modules, $premium_modules) as $title => $data ) {
@@ -311,6 +313,14 @@ function wpr_addons_settings_page() {
 
             if ( 'breadcrumbs-pro' == $data[0] && (defined('WPR_ADDONS_PRO_VERSION') && wpr_fs()->can_use_premium_code()) ) {
                 $url = '';
+            }
+
+            if ( 'category-grid-pro' == $data[0] && (defined('WPR_ADDONS_PRO_VERSION') && wpr_fs()->is_plan( 'expert' )) ) {
+                $url = '';
+            }
+
+            if ( 'advanced-filters-pro' == $data[0] && (defined('WPR_ADDONS_PRO_VERSION') && wpr_fs()->is_plan( 'expert' )) ) {
+                $url = 'https://demosites.royal-elementor-addons.com/fashion-v2/shop-fashion-v2/';
             }
 
             echo '<div class="wpr-element '. esc_attr($class) .'">';
@@ -388,7 +398,7 @@ function wpr_addons_settings_page() {
 
             if ( 'pro' === $data[3] && (!defined('WPR_ADDONS_PRO_VERSION') || !wpr_fs()->can_use_premium_code()) ) {
                 $class = 'wpr-pro-element';
-            } elseif ( 'expert' === $data[3] && !wpr_fs()->is_plan( 'expert' ) ) {
+            } elseif ( 'expert' === $data[3] && (!defined('WPR_ADDONS_PRO_VERSION') || !wpr_fs()->is_plan( 'expert' )) ) {
                 $class = 'wpr-expert-element';
             }
 
@@ -1498,6 +1508,7 @@ function wpr_addons_settings_page() {
                     <li><span>White Label Branding</span></li>
                     <li><span>Elementor Pro Not Required</span></li>
                     <li><span>Custom Field Widget</span></li>
+                    <li><span>Advanced Filters Widget</span></li>
                     <li>And More is Comming Soon...</li>
                 </ul>
             </div>

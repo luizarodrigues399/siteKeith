@@ -41,8 +41,8 @@ class Feature_Lock implements Temp_Lock_Behavior {
 				'text' => esc_html__( 'Pro', 'elementor-pro' ),
 			],
 			'content' => [
-				'heading' => esc_html__( 'You need an active Elementor Pro license', 'elementor-pro' ),
-				'description' => esc_html__( 'Your Elementor Pro license is inactive. To access premium Elementor widgets, templates, support & plugin updates activate your Pro license.', 'elementor-pro' ),
+				'heading' => esc_html__( '', 'elementor-pro' ),
+				'description' => esc_html__( '', 'elementor-pro' ),
 			],
 			'button' => [
 				'text' => API::is_license_expired()

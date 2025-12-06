@@ -8,13 +8,24 @@ Author: Luiza Rodrigues
 
 include_once(dirname(__DIR__, 4) . '/FW/importConstantes.php');
 
+add_action('wp', 'importarJSEspecifico');
 add_action('wp_enqueue_scripts', 'importarGlobalJS');
-add_action('wp', 'importarAjaxJS');
-add_action('wp_enqueue_scripts', 'importarAgendarHorarioJS');
+add_action('wp_enqueue_scripts', 'importarAjaxJS');
 add_action('wp_enqueue_scripts', 'owlCarousel');
 add_action('wp_enqueue_scripts', 'datepickerJS');
+add_action('wp_enqueue_scripts', 'importarAgendarHorarioJS');
 add_action('wp_enqueue_scripts', 'wordpressGlobalJS');
-add_action('wp', 'importarJSEspecifico');
+add_action('wp_enqueue_scripts', 'importarJSView');
+
+function importarJSView() {
+    wp_enqueue_script(
+        'jsviews',
+        get_site_url() .'./../node_modules/jsviews/jsviews.min.js',
+        array('jquery'), // depende do jQuery
+        null,
+        false// true = carrega no footer
+    );
+}
 
 function importarAjaxJS() {
     wp_enqueue_script(
@@ -89,8 +100,10 @@ function importarGlobalJS() {
 
 function importarJSEspecifico() {
     global $post;
-
-    $file = '../js/site/'. $post->post_name . '.js';
+    
+    $wordpress = ($post->post_name == 'blog' || $post->post_name == 'noticia' ? 'wordpress-' : '');
+        
+    $file = '../js/site/'. $wordpress . $post->post_name . '.js';
     $path = ABSPATH . $file;
 
     if (file_exists($path)) {

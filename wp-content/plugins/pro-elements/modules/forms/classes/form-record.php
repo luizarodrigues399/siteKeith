@@ -204,7 +204,7 @@ class Form_Record {
 				case 'credit':
 					$result['credit'] = [
 						'title' => esc_html__( 'Powered by', 'elementor-pro' ),
-						'value' => esc_html__( 'Elementor', 'elementor-pro' ),
+						'value' => esc_html__( 'PRO Elements', 'elementor-pro' ),
 					];
 					break;
 			}

@@ -130,7 +130,7 @@ class Capabilities {
 
 		?>
 		<br/>
-		<h2 id="e-notes"><?php echo esc_html__( 'Elementor Notes', 'elementor-pro' ); ?></h2>
+		<h2 id="e-notes"><?php echo esc_html__( 'PRO Elements Notes', 'elementor-pro' ); ?></h2>
 		<table class="form-table" role="presentation">
 			<tr>
 				<th>

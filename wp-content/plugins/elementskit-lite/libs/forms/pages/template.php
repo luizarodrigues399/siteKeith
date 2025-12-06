@@ -39,7 +39,9 @@ $plugin = $pluginStatus->get_status( 'metform/metform.php' );
 			</div>
 
 			<div class="ekit-hero-media">
-				<iframe width="560" height="400" src="https://www.youtube.com/embed/8R4-Q14cu-w?si=NImN8i9XxDv1CCsN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<!-- <iframe width="560" height="400" src="https://www.youtube.com/embed/8R4-Q14cu-w?si=NImN8i9XxDv1CCsN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/zg1QIouKO_Q?si=7GlN214sDCBq6Wk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			</div>
 
 			<script>
@@ -349,7 +351,7 @@ $plugin = $pluginStatus->get_status( 'metform/metform.php' );
 								array('PayPal Payment', $cross_icon, $check_icon),
 								array('Stripe Payment', $cross_icon, $check_icon),
 								array('MailChimp', $check_icon, $check_icon),
-								array('Hubspot', $cross_icon, $check_icon),
+								array('Hubspot', $check_icon, $check_icon),
 								array('Zoho', $cross_icon, $check_icon),
 								array('Aweber', $cross_icon, $check_icon),
 								array('ConvertKit', $cross_icon, $check_icon),

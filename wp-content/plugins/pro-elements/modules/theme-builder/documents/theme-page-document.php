@@ -46,8 +46,8 @@ abstract class Theme_Page_Document extends Theme_Document {
 				'type' => Controls_Manager::SELECT,
 				'options' => [
 					'' => esc_html__( 'Default', 'elementor-pro' ),
-					PageTemplatesModule::TEMPLATE_CANVAS => esc_html__( 'Elementor Canvas', 'elementor-pro' ),
-					PageTemplatesModule::TEMPLATE_HEADER_FOOTER => esc_html__( 'Elementor Full Width', 'elementor-pro' ),
+					PageTemplatesModule::TEMPLATE_CANVAS => esc_html__( 'PRO Elements Canvas', 'elementor-pro' ),
+					PageTemplatesModule::TEMPLATE_HEADER_FOOTER => esc_html__( 'PRO Elements Full Width', 'elementor-pro' ),
 				],
 			]
 		);
@@ -68,7 +68,7 @@ abstract class Theme_Page_Document extends Theme_Document {
 			'page_template_canvas_description',
 			[
 				'type' => Controls_Manager::RAW_HTML,
-				'raw' => esc_html__( 'No header, no footer, just Elementor', 'elementor-pro' ),
+				'raw' => esc_html__( 'No header, no footer', 'elementor-pro' ),
 				'content_classes' => 'elementor-descriptor',
 				'condition' => [
 					'page_template' => PageTemplatesModule::TEMPLATE_CANVAS,

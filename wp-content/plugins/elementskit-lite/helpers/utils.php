@@ -308,9 +308,8 @@ class Utils {
 		}
 	}
 
-	public static function render_elementor_content( $content_id ) {
+	public static function render_elementor_content( $content_id, $has_css = false ) {
 		$elementor_instance = \Elementor\Plugin::instance();
-		$has_css            = false;
 
 		/**
 		 * CSS Print Method Internal and Exteral option support for Header and Footer Builder.
@@ -319,7 +318,8 @@ class Utils {
 			$has_css = true;
 		}
 
-		return $elementor_instance->frontend->get_builder_content_for_display( $content_id, $has_css );
+		// TODO: align $has_css with elementor settings.
+		return $elementor_instance->frontend->get_builder_content_for_display( $content_id, true );
 	}
 
 	public static function render( $content ) {

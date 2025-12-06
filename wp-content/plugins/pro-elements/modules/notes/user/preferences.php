@@ -53,7 +53,7 @@ class Preferences {
 		$value = Utils::get_user_option_with_default( $option_name, $user->ID, '1' );
 
 		?>
-		<h2><?php echo esc_html__( 'Elementor Notes', 'elementor-pro' ); ?></h2>
+		<h2><?php echo esc_html__( 'PRO Elements Notes', 'elementor-pro' ); ?></h2>
 		<table class="form-table" role="presentation">
 			<tr>
 				<th>
@@ -64,7 +64,7 @@ class Preferences {
 				<td>
 					<label for="<?php echo esc_attr( $option_name ); ?>">
 						<input name="<?php echo esc_attr( $option_name ); ?>" id="<?php echo esc_attr( $option_name ); ?>" type="checkbox" value="1"<?php checked( '1', $value ); ?> />
-						<?php echo esc_html__( 'Enable Elementor Notes notifications', 'elementor-pro' ); ?>
+						<?php echo esc_html__( 'Enable PRO Elements Notes notifications', 'elementor-pro' ); ?>
 					</label>
 				</td>
 			</tr>

@@ -13,7 +13,7 @@ class Compatibility_Tag_Component extends Compatibility_Tag_Base_Module {
 	 *
 	 * @var string
 	 */
-	const PLUGIN_VERSION_TESTED_HEADER = 'Elementor Pro tested up to';
+	const PLUGIN_VERSION_TESTED_HEADER = 'PRO Elements tested up to';
 
 	/**
 	 * @return string
@@ -26,7 +26,7 @@ class Compatibility_Tag_Component extends Compatibility_Tag_Base_Module {
 	 * @return string
 	 */
 	protected function get_plugin_label() {
-		return esc_html__( 'Elementor Pro', 'elementor-pro' );
+		return esc_html__( 'PRO Elements', 'elementor-pro' );
 	}
 
 	/**

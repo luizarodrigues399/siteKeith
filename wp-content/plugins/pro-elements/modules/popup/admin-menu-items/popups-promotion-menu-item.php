@@ -70,7 +70,7 @@ class Popups_Promotion_Menu_Item extends Base_Promotion_Item {
 
 	public function get_promotion_description() {
 		return esc_html__(
-			"Create custom designed Popups using all of Elementor's widgets. Use advanced display conditions and triggers to display the right popup, to the right visitor, at the right time and maximize conversions.",
+			"Create custom designed Popups. Use advanced display conditions and triggers to display the right popup, to the right visitor, at the right time and maximize conversions.",
 			'elementor-pro'
 		);
 	}

@@ -52,7 +52,7 @@ class Custom_Fonts_Promotion_Menu_Item extends Base_Promotion_Item {
 
 	public function get_promotion_description() {
 		return esc_html__(
-			'Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language.',
+			'Custom Fonts allows you to add your self-hosted fonts and use them on your projects to create a unique brand language.',
 			'elementor-pro'
 		);
 	}

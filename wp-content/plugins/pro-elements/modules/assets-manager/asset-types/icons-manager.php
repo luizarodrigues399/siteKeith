@@ -212,7 +212,7 @@ class Icons_Manager {
 					return;
 				}
 
-				$menu_title = _x( 'Custom Icons', 'Elementor Font', 'elementor-pro' );
+				$menu_title = _x( 'Custom Icons', 'PRO Elements Font', 'elementor-pro' );
 
 				add_submenu_page(
 					Settings::PAGE_ID,

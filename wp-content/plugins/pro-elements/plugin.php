@@ -474,14 +474,17 @@ class Plugin {
 
 		$this->php_api = new PHP_Api();
 
+		$this->license_admin->register_actions();
+
 		if ( is_user_logged_in() ) {
 			$this->integrations = new Integrations_Manager(); // TODO: This one is safe to move out of the condition.
 
 			$this->notifications = new Notifications_Manager();
-		if ( is_admin() ) {
-			$this->admin = new Admin();
 
-			$this->license_admin->register_actions();
+
+
+			if ( is_admin() ) {
+			$this->admin = new Admin();
 
 				require_once __DIR__ . '/updater/updater.php';
 				$config = array(

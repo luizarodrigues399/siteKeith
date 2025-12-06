@@ -85,7 +85,7 @@ class Custom_Fonts extends Classes\Font_Base {
 				'id' => 'preview_label',
 				'field_type' => 'html',
 				'label' => false,
-				'raw_html' => sprintf( '<div class="inline-preview">%s</div>', esc_html__( 'Elementor Is Making the Web Beautiful', 'elementor-pro' ) ),
+				'raw_html' => sprintf( '<div class="inline-preview">%s</div>', esc_html__( 'PRO Elements Is Making the Web Beautiful', 'elementor-pro' ) ),
 			],
 			[
 				'id' => 'toolbar',

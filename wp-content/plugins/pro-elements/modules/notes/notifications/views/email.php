@@ -86,23 +86,5 @@
 			);
 			?>
 		</p>
-
-		<p style="font-size: 8px; margin-bottom: 12px;">
-			<?php
-				echo esc_html__( 'Powered by', 'elementor-pro' );
-			?>
-		</p>
-
-		<a
-			href="https://elementor.com/"
-			target="_blank"
-			rel="noreferrer"
-		>
-			<img
-				src="<?php echo esc_url( ELEMENTOR_PRO_MODULES_URL . 'notes/assets/images/elementor-logo-orange.png' ); ?>"
-				alt="<?php echo esc_attr__( 'Elementor Logo', 'elementor-pro' ); ?>"
-				style="width: 114px;"
-			/>
-		</a>
 	</div>
 </div>

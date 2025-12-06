@@ -43,16 +43,6 @@ class Editor extends App {
 
 		add_filter( 'elementor/editor/localize_settings', [ $this, 'localize_settings' ] );
 
-		add_filter( 'elementor/editor/panel/get_pro_details', function( $get_pro_details ) {
-			if ( defined( '\Elementor\Modules\Apps\Module::PAGE_ID' ) ) {
-				$get_pro_details['link'] = admin_url( 'admin.php?page=' . \Elementor\Modules\Apps\Module::PAGE_ID );
-				$get_pro_details['message'] = __( 'Extend Elementor With Add-ons', 'elementor-pro' );
-				$get_pro_details['button_text'] = __( 'Explore Add-ons', 'elementor-pro' );
-			}
-
-			return $get_pro_details;
-		} );
-
 		add_action( 'elementor/editor/v2/scripts/enqueue', function () {
 			$this->enqueue_editor_v2_scripts();
 		} );
@@ -88,7 +78,7 @@ class Editor extends App {
 	public function enqueue_editor_styles() {
 		wp_enqueue_style(
 			'elementor-pro',
-			$this->get_css_assets_url( 'editor', null, 'default', true ),
+			$this->get_css_assets_url( 'editor' ),
 			[
 				'elementor-editor',
 			],

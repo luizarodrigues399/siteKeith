@@ -329,8 +329,6 @@ class Module extends Module_Base {
 	private function add_admin_menu( Admin_Menu_Manager $admin_menu_manager ) {
 		if ( $this->can_use_custom_code() ) {
 			$admin_menu_manager->register( static::MENU_SLUG, new Custom_Code_Menu_Item() );
-		} else {
-			$admin_menu_manager->register( static::PROMOTION_MENU_SLUG, new Custom_Code_Promotion_Menu_Item() );
 		}
 	}
 

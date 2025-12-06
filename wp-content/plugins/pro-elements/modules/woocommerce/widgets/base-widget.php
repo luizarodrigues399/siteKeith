@@ -140,7 +140,7 @@ abstract class Base_Widget extends \ElementorPro\Base\Base_Widget {
 	 * @return string
 	 */
 	public function filter_gettext( $translation, $text, $domain ) {
-		if ( 'woocommerce' !== $domain && 'elementor-pro' !== $domain ) {
+		if ( 'woocommerce' !== $domain && 'pro-elements' !== $domain ) {
 			return $translation;
 		}
 
